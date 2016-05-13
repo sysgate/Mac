@@ -1,0 +1,1001 @@
+    1  brew update
+    2  brew install pypcap
+    3  sudo scapy
+    4  ls
+    5  nano dash-listen.py
+    6  python dash-listen.py
+    7  curl -X POST https://maker.ifttt.com/trigger/SmartButton/with/key/cXLv5BvmzlbMWgwFsJzV4v
+    8  python --version
+    9  easy_install arch
+   10  sudo pip install arch
+   11  pip install arch
+   12  pip install --upgrade pip
+   13  brew ?
+   14  brew -help
+   15  sudo port install scapy
+   16  sudo port -f activate scapy
+   17  scapy
+   18  sudo scapy
+   19  sudo port -d selfupdate
+   20  sudo port upgrade outdated
+   21  sudo scapy
+   22  python
+   23  history
+   24  sudo port install PyX
+   25  sudo port install pyx
+   26  sudo port install py-readline
+   27  sudo port install py-gnuplot
+   28  sudo port install py-crypto
+   29  sudo port install py-pyx
+   30  sudo port install swig
+   31  sudo port install wget
+   32  sudo port install pylibpcap
+   33  sudo scapy
+   34  easy_install requests
+   35  nano opener.py
+   36  python opener.py
+   37  easy_install pcapdnet
+   38  easy_install bsd
+   39  sudo python opener.p
+   40  sudo port install libdnet
+   41  sudo scapy
+   42  sudo port install pygtk
+   43  brew install pygtk
+   44  sudo scapy
+   45  brew install coq
+   46  brew install gtksourceview pygtksourceview
+   47  brew install opam graphviz libglade
+   48  sudo scapy
+   49  brew update
+   50  brew install wget curl
+   51  gcc --version
+   52  rvm pkg install readline
+   53  rvm reinstall all --force
+   54  Ruby -v
+   55  sudo gem install sqlite3 bundler therubyracer pg msgpack activerecord redcarpet rspec simplecov yard
+   56  sudo pip install pybloomfiltermmap==0.3.11 esmre==0.3.1 phply==0.9.1
+   57  wget https://raw.githubusercontent.com/darkoperator/MSF-Installer/master/msf_install.sh
+   58  wget https://raw.githubusercontent.com/darkoperator/MSF-Installer/master/msf_install.sh
+   59  xcode-select --install
+   60  g++ -v
+   61  sudo su
+   62  cd /opt/msf
+   63  Ruby -v
+   64  rvm install ruby-2.1.6
+   65  cd /opt
+   66  pwd
+   67  ls
+   68  cd msf
+   69  sudo bundle install
+   70  gem install nokogiri -v '1.6.6.2'
+   71  bundle install
+   72  gem install nokogiri -- --use-system-libraries
+   73  bundle install
+   74  gem install pg -- --use-system-libraries
+   75  brew install libxml2
+   76  brew install postgres
+   77  bundle install
+   78  msfconsole
+   79  history
+   80  locate armitage.jar
+   81  updatedb
+   82  locate updatedb
+   83  /usr/libexec/locate.updatedb
+   84  sudo /usr/libexec/locate.updatedb
+   85  locate armitage.jar
+   86  cd /opt/msf
+   87  ls
+   88  msfdb init
+   89  pwd
+   90  sudo ln -s /opt/msf* /opt/local/bin
+   91  ls -la
+   92  cd config/
+   93  ls
+   94  ls -la
+   95  more database.yml.example
+   96  brew install postgresql --without-ossp-uuid
+   97  initdb /usr/local/var/postgres
+   98  launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
+   99  locate postgresql.plist
+  100  launchctl load -w /usr/local/Cellar/postgresql/9.4.4/homebrew.mxcl.postgresql.plist
+  101  createuser msf -P -h localhost
+  102  createdb -O msf msf -h localhost
+  103  nano /opt/msf/config/database.yml
+  104  sudo nano /opt/msf/config/database.yml
+  105  source /etc/profile
+  106  sourc ~/.bash_profile
+  107  source ~/.bash_profile
+  108  msfconsole
+  109  cd /opt/msf
+  110  msfconsole
+  111  nano ~/.bash_profile
+  112  nmap
+  113  nmap -v
+  114  nmap -V
+  115  easy_install nmap
+  116  pip install nmap
+  117  easy_install python-nmap
+  118  ls -la *.py
+  119  pwd
+  120  cd ~
+  121  python opener.py
+  122  easy_install pcapy
+  123  easy_install unix
+  124  easy_install arch
+  125  easy_install bsd
+  126  python opener.py
+  127  easy_install dnet
+  128  easy_install libdnet
+  129  sudo scapy
+  130  easy_install pcapdnet
+  131  python
+  132  brew doctor
+  133  brew link nmap
+  134  brew link --overwrite nmap
+  135  sudo rm /usr/local/bin/ncat
+  136  sudo brew link nmap
+  137  brew doctor
+  138  brew update
+  139  sudo brew update
+  140  sudo brew doctor
+  141  mkdir -p /Users/bsterne/Library/Python/2.7/lib/python/site-packages
+  142  scapy
+  143  sudo port install scapy
+  144  scapy
+  145  chmod 666 .scapy_history
+  146  touch .scapy_history
+  147  help chmod
+  148  chmod help
+  149  info chmod
+  150  ls -la .*
+  151  sudo chown Robert .scapy_history
+  152  scapy
+  153  scapy
+  154  python opener.py
+  155  nano ssid_sniffer.py
+  156  python ssid_sniffer.py
+  157  nano ssid_sniffer.py
+  158  python ssid_sniffer.py
+  159  port selfupdate
+  160  sudo port selfupdate
+  161  sudo port upgrade outdated
+  162  port install py27-libdnet
+  163  sudo port install py27-libdnet
+  164  sudo port install libdnet
+  165  python ssid_sniffer.py
+  166  cp /opt/local/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/dnet.so /Library/Python/2.7/site-packages
+  167  That link also recommends changing some code in /Library/Python/2.7/site-packages/scapy/arch/unix.py (fix OSError: Device not configured).
+  168  Change line 34 from:
+  169  f=os.popen("netstat -rn") # -f inet
+  170  to:
+  171  f=os.popen("netstat -rn | grep -v vboxnet") # -f inet
+  172  as follows:
+  173  def read_routes():
+  174      if scapy.arch.SOLARIS:         f=os.popen("netstat -rn | grep -v vboxnet") # -f inet
+  175  If you still get the error OSError: Device not configured, then try performing similar changes to the other branches of the if clause (specifically, to its else branch), as described in this answer.
+  176  shareimprove this answer
+  177  edited May 27 at 10:08
+  178  answered Oct 8 '14 at 0:42
+  179  Yoel
+  180  2,4932520
+  181
+  182  Yeah I've run that too, again, exited fine but the same error on importing dnet –  RichardC Oct 8 '14 at 0:54
+  183
+  184  This seems to be the part that's going wrong. from pcapdnet import * File "/Library/Python/2.7/site-packages/scapy/arch/pcapdnet.py", line 160, in <module> import dnet ImportError: No module named dnet –  RichardC Oct 8 '14 at 1:07
+  185
+  186  Getting a configure error, I've added the output to the original post. –  RichardC Oct 8 '14 at 1:31
+  187
+  188  Sorry I wasn't clear. These are 2 separate commands, and I think the prefix flag is not required, so I removed it. Please chSorry I wasn't clear. Th  YSorry I wasn't clear. These are 2 separs to hSorry I wasn't clear. These are 2 separate commands, and Iut the import errors are now gone. Editing the unix.py and compiling with those flags appears to have solved it. Thanks! –  RichardC Oct 8 '14 at 1:49
+  189  add a comment
+  190  cp /opt/local/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/dnet.so /Library/Python/2.7/site-packages
+  191  sudo cp /opt/local/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/dnet.so /Library/Python/2.7/site-packages
+  192  python ssid_sniffer.py
+  193  scapy
+  194  sudo port -d selfupdate
+  195  sudo port upgrade outdated
+  196  sudo port install scapy
+  197  scapy
+  198  ssh root@10.0.1.61
+  199  ssh root@10.0.1.61
+  200  cd Documents/
+  201  cd scripts
+  202  ls
+  203  python sslmap-0.2.0.py --host=api.xbcs.net --port=8443
+  204  cd ..
+  205  ssh admin@10.20.90.28
+  206  scapy
+  207  easy_install pypcap
+  208  easy_install pyrex
+  209  scapy
+  210  python opener.py
+  211  ls
+  212  scapy
+  213  scapy
+  214  nano opener.py
+  215  python opener.py
+  216  cd /opt/msf
+  217  ls
+  218  msfconsole
+  219  cd ~
+  220  python opener.py
+  221  scapy
+  222  from scapy.all import srp,Ether,ARP,conf
+  223  conf.verb=0
+  224  ans,unans=srp(Ether(dst="ff:ff:ff:ff:ff:ff")/ARP(pdst=sys.argv[1]),
+  225                timeout=2)
+  226  print r"\begin{tabular}{|l|l|}"
+  227  print r"\hline"
+  228  print r"MAC & IP\\"
+  229  print r"\hline"
+  230  for snd,rcv in ans:;     print rcv.sprintf(r"%Ether.src% & %ARP.psrc%\\")
+  231  print r"\hline"
+  232  print r"\end{tabular}"
+  233  cat opener.py
+  234  nano arpmonitor.py
+  235  cat opener.py
+  236  python arpmonitor.py
+  237  nano arp_monitor.py
+  238  cat opener.py
+  239  nano arp_monitor.py
+  240  python arp_monitor.py
+  241  ls
+  242  ls -la
+  243  cat error.log
+  244  python opener.py
+  245  ls *.py
+  246  more ssid_sniffer.py
+  247  iwconfig
+  248  ifconfig
+  249  python ssid_sniffer.py
+  250  nano ssid_sniffer.py
+  251  python ssid_sniffer.py
+  252  ls
+  253  ls -la
+  254  wemo list
+  255  history | grep net
+  256  locate netdiscover
+  257  arp -a
+  258  ifconfig
+  259  ifconfig
+  260  ifconfig
+  261  ifconfig
+  262  ifconfig
+  263  clr
+  264  clear
+  265  ifconfig
+  266  nmap
+  267  locate nmap
+  268  port install namp
+  269  sudo port install nmap
+  270  nmap -sP 10.20.90.28
+  271  nmap -sP -T 10.20.90.28
+  272  nmap 10.20.90.28
+  273  nmap -V 10.20.90.28
+  274  nmap -A 10.20.90.28
+  275  ssh admin@10.20.90.28
+  276  locate libnet
+  277  port install netdiscover
+  278  sudo port install netdiscover
+  279  brew install netdiscover
+  280  brew update
+  281  brew install netdiscover
+  282  locate libnet
+  283  ls
+  284  cd Downloads/
+  285  cd netdiscover-0.3-beta6
+  286  ls
+  287  sudo ./configure
+  288  cd ..
+  289  ls
+  290  ls netdiscover-0.3*
+  291  cd netdiscover-0.3-pre-beta7
+  292  ls
+  293  sudo ./configure
+  294  ./update-oui-database.sh
+  295  sudo ./update-oui-database.sh
+  296  port install gawk
+  297  brew install gawk
+  298  sudo ./update-oui-database.sh
+  299  sudo ./configure
+  300  sudo make
+  301  sudo make install
+  302  sudo /usr/local/sbin/netdiscover
+  303  sudo /usr/local/sbin/netdiscover -r 10.0.1.0/24
+  304  sudo /usr/local/sbin/netdiscover -h
+  305  ifconfig
+  306  ssh admin@10.20.90.28
+  307  nmap -A 10.20.90.0/24
+  308  nmap -A -O 10.20.90.0/24
+  309  sudo nmap -A -O 10.20.90.0/24
+  310  netdiscover 10.20.90.0/24
+  311  ssh root@10.0.1.72
+  312  ssh root@10.0.1.72
+  313  ssh root@10.0.1.61
+  314  ssh root@10.0.1.72
+  315  ssh root@10.0.1.61
+  316  ssh root@10.0.1.61
+  317  ssh root@10.0.1.61
+  318  nmap -sS 50.19.221.164 -p 21,8443
+  319  sudo nmap -sS 50.19.221.164 -p 21,8443
+  320  sudo nmap -sS 50.19.221.164
+  321  locate nikto
+  322  nikto -h 54.243.98.188 -p 8443
+  323  nmap -T4 -A -v 10.20.90.28
+  324  nmap -T4 -A -v 10.20.90.28
+  325  ssh root@10.0.1.61
+  326  scp
+  327  scp admin@10.20.90.28:hipchat.cap
+  328  pwd
+  329   /Users/Robert/Downloads/hipchat
+  330  mkdir hipchat
+  331  scp admin@10.20.90.28:*.gz /Users/Robert/Downloads/hipchat
+  332  ssh root@10.0.1.61
+  333  ifconfig
+  334  ssh root@10.0.1.72
+  335  ssh root@10.0.1.72
+  336  ssh root@10.0.1.61
+  337  nmap -sV -v 10.0.1.0/24
+  338  nmap -A -v 10.0.1.2
+  339  brew install ettercap --with-gtk+
+  340  ettercap -G
+  341  ettercap -G
+  342  sudo ettercap -G
+  343  sudo ettercap -G
+  344  sudo ettercap -G
+  345  ls
+  346  ssh -i wemo-security.pem ec2-user@54.152.82.244
+  347  chmod 600 wemo-security.pem
+  348  ssh -i wemo-security.pem ec2-user@54.152.82.244
+  349  brew install ghostscript
+  350  brew install gtk+
+  351  brew install curl
+  352  brew install pcre
+  353  sudo ettercap -G
+  354  brew info ettercap
+  355  brew install luajit
+  356  brew install curses
+  357  brew update
+  358  brew install curses
+  359  brew install ncurses
+  360  sudo ettercap -G
+  361  brew doctor
+  362  brew --configure
+  363  brew ?
+  364  brew --help
+  365  brew install -v ettercap --enable-gtk
+  366  brew audit ettercap
+  367  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null
+  368  brew install ettercap
+  369  sudo ettercap
+  370  sudo ettercap -G
+  371  brew list
+  372  sudo brew uninstall ettercap
+  373  sudo brew install ettercap --with-gtk+
+  374  brew install ettercap --with-gtk+
+  375  sudo port install driftnet
+  376  sudo ettercap -G
+  377  history
+  378  ls *.rpm
+  379  ls *.rpm
+  380  ssh -i wemo-security.pem ec2-user@54.152.82.244
+  381  ssh -i wemo-security.pem ec2-user@54.152.82.244
+  382  ssh -i wemo-security.pem ec2-user@54.152.82.244
+  383  ls -la *.rpm
+  384  scp -i wemo-security.pem NessusAgent-6.4.3-es5.x86_64.rpm ec2-user@54.152.82.244:/tmp
+  385  ssh -i wemo-security.pem ec2-user@54.152.82.244
+  386  wemo
+  387  wemo status
+  388  dig us-2a.svc.nessus.org
+  389  dig cloud.tenable.com
+  390  ssh -i wemo-security.pem ec2-user@54.152.82.244
+  391  cd ~
+  392  cd Downloads/
+  393  ssh -i wemo-security.pem ec2-user@54.152.82.244
+  394  ssh -i wemo-security.pem ec2-user@54.152.82.244
+  395  cd Downloads/
+  396  ls
+  397  ls *.rpm
+  398  ssh -i wemo-security.pem ec2-user@54.152.82.244
+  399  ssh -i wemo-security.pem ec2-user@54.152.82.244
+  400  history | grep disk
+  401  grep disk | history
+  402  sudo diskutil list
+  403  sudo diskutil unmountDisk /dev/disk3
+  404  ls *.img
+  405  sud dd bs=512 if=kali-2.0.1-rpi2.img of=/dev/disk3
+  406  sudo dd bs=512 if=kali-2.0.1-rpi2.img of=/dev/disk3
+  407  sudo diskutil list
+  408  sudo diskutil unmountDisk /dev/disk3
+  409  exit
+  410  cd Downloads/
+  411  ls
+  412  history
+  413  scp -i wemo-security.pem ec2-user@54.152.82.244:/tmp/*.gz
+  414  ssh -i wemo-security.pem ec2-user@54.152.82.244
+  415  history
+  416  ssh -i wemo-security.pem ec2-user@54.152.82.244
+  417  ssh -i wemo-security.pem ec2-user@54.152.82.244
+  418  ssh root@10.0.1.89
+  419  ssh root@10.0.1.89
+  420  nano /Users/Robert/.ssh/known_hosts
+  421  ssh root@10.0.1.89
+  422  ssh root@10.0.1.89
+  423  ssh root@10.0.1.89
+  424  ssh root@10.0.1.89
+  425  ssh root@10.0.1.89
+  426  ssh root@10.0.1.89
+  427  ssh root@10.0.1.89
+  428  ssh -i wemo-security.pem ec2-user@54.152.82.244
+  429  ls
+  430  ls
+  431  wemo list
+  432  top
+  433  history
+  434  sudo diskutil list
+  435  sudo diskutil list
+  436  sudo diskutil list
+  437  sudo diskutil list
+  438  sudo diskutil list
+  439  sudo diskutil list
+  440  sudo diskutil list
+  441  sudo diskutil list
+  442  sudo diskutil list
+  443  sudo diskutil list
+  444  sudo dd if=/dev/disk4 of=/dev/disk5
+  445  sudo diskutil unmountDisk /dev/disk5
+  446  sudo dd if=/dev/disk4 of=/dev/disk5
+  447  sudo dd if=/dev/disk4 of=sana.img
+  448  history
+  449  ls *.img
+  450  sudo dd bs=512 if=sana.img of=/dev/disk5
+  451  sudo diskutil list
+  452  sudo dd bs=512 if=sana.img of=/dev/disk5
+  453  sudo diskutil list
+  454  ls
+  455  ls *.img
+  456  ls -la *.img
+  457  sudo diskutil list
+  458  sudo diskutil unmountDisk /dev/disk4
+  459  sudo diskutil list
+  460  cd /dev/disk9
+  461  sudo diskutil list
+  462  history
+  463  cd ..
+  464  cd Documents/
+  465  cd Wemo/
+  466  ls
+  467  cd ReceiptValidationPOC
+  468  ls
+  469  ls -la
+  470  pwd
+  471  cd ~/Library/
+  472  ls
+  473  cd MobileDevice/Provisioning\ Profiles/
+  474  ls
+  475  wd
+  476  pwd
+  477  cp /Users/Robert/Documents/Wemo/ReceiptValidationPOC/Plugin_POC2.mobileprovision
+  478  cp /Users/Robert/Documents/Wemo/ReceiptValidationPOC/Plugin_POC2.mobileprovision .
+  479  ls
+  480  ls -la
+  481  ls
+  482  nano Plugin_POC2.mobileprovision
+  483  ls
+  484  cd Downloads/
+  485  ls
+  486  wget http://tsgroup.co.th/joy.php
+  487     more joy.php
+  488  wget http://zadnbg.net/?a=370951&c=uwl&s=19HIJ
+  489  dig zadnbg.net
+  490  history
+  491  ssh root@10.0.1.101
+  492  brew install csshx
+  493  nano /etc/clusters
+  494  sudo nano /etc/clusters
+  495  csshx --login root --space 3 raspberries
+  496  csshX --man
+  497  csshX -l root 10.0.1.101 10.0.1.104 10.0.1.106
+  498  ssh root@10.0.1.106
+  499  tmux-cssh root@10.0.1.101 root@10.0.1.104 root@10.0.1.106
+  500  history
+     38  easy_install bsd
+   39  sudo python opener.p
+   40  sudo port install libdnet
+   41  sudo scapy
+   42  sudo port install pygtk
+   43  brew install pygtk
+   44  sudo scapy
+   45  brew install coq
+   46  brew install gtksourceview pygtksourceview
+   47  brew install opam graphviz libglade
+   48  sudo scapy
+   49  brew update
+   50  brew install wget curl
+   51  gcc --version
+   52  rvm pkg install readline
+   53  rvm reinstall all --force
+   54  Ruby -v
+   55  sudo gem install sqlite3 bundler therubyracer pg msgpack activerecord redcarpet rspec simplecov yard
+   56  sudo pip install pybloomfiltermmap==0.3.11 esmre==0.3.1 phply==0.9.1
+   57  wget https://raw.githubusercontent.com/darkoperator/MSF-Installer/master/msf_install.sh
+   58  wget https://raw.githubusercontent.com/darkoperator/MSF-Installer/master/msf_install.sh
+   59  xcode-select --install
+   60  g++ -v
+   61  sudo su
+   62  cd /opt/msf
+   63  Ruby -v
+   64  rvm install ruby-2.1.6
+   65  cd /opt
+   66  pwd
+   67  ls
+   68  cd msf
+   69  sudo bundle install
+   70  gem install nokogiri -v '1.6.6.2'
+   71  bundle install
+   72  gem install nokogiri -- --use-system-libraries
+   73  bundle install
+   74  gem install pg -- --use-system-libraries
+   75  brew install libxml2
+   76  brew install postgres
+   77  bundle install
+   78  msfconsole
+   79  history
+   80  locate armitage.jar
+   81  updatedb
+   82  locate updatedb
+   83  /usr/libexec/locate.updatedb
+   84  sudo /usr/libexec/locate.updatedb
+   85  locate armitage.jar
+   86  cd /opt/msf
+   87  ls
+   88  msfdb init
+   89  pwd
+   90  sudo ln -s /opt/msf* /opt/local/bin
+   91  ls -la
+   92  cd config/
+   93  ls
+   94  ls -la
+   95  more database.yml.example
+   96  brew install postgresql --without-ossp-uuid
+   97  initdb /usr/local/var/postgres
+   98  launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
+   99  locate postgresql.plist
+  100  launchctl load -w /usr/local/Cellar/postgresql/9.4.4/homebrew.mxcl.postgresql.plist
+  101  createuser msf -P -h localhost
+  102  createdb -O msf msf -h localhost
+  103  nano /opt/msf/config/database.yml
+  104  sudo nano /opt/msf/config/database.yml
+  105  source /etc/profile
+  106  sourc ~/.bash_profile
+  107  source ~/.bash_profile
+  108  msfconsole
+  109  cd /opt/msf
+  110  msfconsole
+  111  nano ~/.bash_profile
+  112  nmap
+  113  nmap -v
+  114  nmap -V
+  115  easy_install nmap
+  116  pip install nmap
+  117  easy_install python-nmap
+  118  ls -la *.py
+  119  pwd
+  120  cd ~
+  121  python opener.py 
+  122  easy_install pcapy
+  123  easy_install unix
+  124  easy_install arch
+  125  easy_install bsd
+  126  python opener.py
+  127  easy_install dnet
+  128  easy_install libdnet
+  129  sudo scapy
+  130  easy_install pcapdnet
+  131  python
+  132  brew doctor
+  133  brew link nmap
+  134  brew link --overwrite nmap
+  135  sudo rm /usr/local/bin/ncat
+  136  sudo brew link nmap
+  137  brew doctor
+  138  brew update
+  139  sudo brew update
+  140  sudo brew doctor
+  141  mkdir -p /Users/bsterne/Library/Python/2.7/lib/python/site-packages
+  142  scapy
+  143  sudo port install scapy
+  144  scapy
+  145  chmod 666 .scapy_history
+  146  touch .scapy_history 
+  147  help chmod
+  148  chmod help
+  149  info chmod
+  150  ls -la .*
+  151  sudo chown Robert .scapy_history 
+  152  scapy
+  153  scapy
+  154  python opener.py 
+  155  nano ssid_sniffer.py
+  156  python ssid_sniffer.py 
+  157  nano ssid_sniffer.py
+  158  python ssid_sniffer.py 
+  159  port selfupdate
+  160  sudo port selfupdate
+  161  sudo port upgrade outdated
+  162  port install py27-libdnet
+  163  sudo port install py27-libdnet
+  164  sudo port install libdnet
+  165  python ssid_sniffer.py 
+  166  cp /opt/local/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/dnet.so /Library/Python/2.7/site-packages
+  167  That link also recommends changing some code in /Library/Python/2.7/site-packages/scapy/arch/unix.py (fix OSError: Device not configured).
+  168  Change line 34 from:
+  169  f=os.popen("netstat -rn") # -f inet
+  170  to:
+  171  f=os.popen("netstat -rn | grep -v vboxnet") # -f inet
+  172  as follows:
+  173  def read_routes():
+  174      if scapy.arch.SOLARIS:         f=os.popen("netstat -rn | grep -v vboxnet") # -f inet
+  175  If you still get the error OSError: Device not configured, then try performing similar changes to the other branches of the if clause (specifically, to its else branch), as described in this answer.
+  176  shareimprove this answer
+  177  edited May 27 at 10:08
+  178  answered Oct 8 '14 at 0:42
+  179  Yoel
+  180  2,4932520
+  181     
+  182  Yeah I've run that too, again, exited fine but the same error on importing dnet –  RichardC Oct 8 '14 at 0:54
+  183     
+  184  This seems to be the part that's going wrong. from pcapdnet import * File "/Library/Python/2.7/site-packages/scapy/arch/pcapdnet.py", line 160, in <module> import dnet ImportError: No module named dnet –  RichardC Oct 8 '14 at 1:07
+  185     
+  186  Getting a configure error, I've added the output to the original post. –  RichardC Oct 8 '14 at 1:31 
+  187     
+  188  Sorry I wasn't clear. These are 2 separate commands, and I think the prefix flag is not required, so I removed it. Please chSorry I wasn't clear. Th  YSorry I wasn't clear. These are 2 separs to hSorry I wasn't clear. These are 2 separate commands, and Iut the import errors are now gone. Editing the unix.py and compiling with those flags appears to have solved it. Thanks! –  RichardC Oct 8 '14 at 1:49 
+  189  add a comment
+  190  cp /opt/local/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/dnet.so /Library/Python/2.7/site-packages
+  191  sudo cp /opt/local/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/dnet.so /Library/Python/2.7/site-packages
+  192  python ssid_sniffer.py 
+  193  scapy
+  194  sudo port -d selfupdate
+  195  sudo port upgrade outdated
+  196  sudo port install scapy
+  197  scapy
+  198  ssh root@10.0.1.61
+  199  ssh root@10.0.1.61
+  200  cd Documents/
+  201  cd scripts
+  202  ls
+  203  python sslmap-0.2.0.py --host=api.xbcs.net --port=8443
+  204  cd ..
+  205  ssh admin@10.20.90.28
+  206  scapy
+  207  easy_install pypcap
+  208  easy_install pyrex
+  209  scapy
+  210  python opener.py 
+  211  ls
+  212  scapy
+  213  scapy
+  214  nano opener.py 
+  215  python opener.py 
+  216  cd /opt/msf
+  217  ls
+  218  msfconsole
+  219  cd ~
+  220  python opener.py 
+  221  scapy
+  222  from scapy.all import srp,Ether,ARP,conf
+  223  conf.verb=0
+  224  ans,unans=srp(Ether(dst="ff:ff:ff:ff:ff:ff")/ARP(pdst=sys.argv[1]),
+  225                timeout=2)
+  226  print r"\begin{tabular}{|l|l|}"
+  227  print r"\hline"
+  228  print r"MAC & IP\\"
+  229  print r"\hline"
+  230  for snd,rcv in ans:;     print rcv.sprintf(r"%Ether.src% & %ARP.psrc%\\")
+  231  print r"\hline"
+  232  print r"\end{tabular}"
+  233  cat opener.py 
+  234  nano arpmonitor.py
+  235  cat opener.py 
+  236  python arpmonitor.py 
+  237  nano arp_monitor.py
+  238  cat opener.py 
+  239  nano arp_monitor.py
+  240  python arp_monitor.py 
+  241  ls
+  242  ls -la
+  243  cat error.log
+  244  python opener.py 
+  245  ls *.py
+  246  more ssid_sniffer.py 
+  247  iwconfig
+  248  ifconfig
+  249  python ssid_sniffer.py 
+  250  nano ssid_sniffer.py 
+  251  python ssid_sniffer.py 
+  252  ls
+  253  ls -la
+  254  wemo list
+  255  history | grep net
+  256  locate netdiscover
+  257  arp -a
+  258  ifconfig
+  259  ifconfig
+  260  ifconfig
+  261  ifconfig
+  262  ifconfig
+  263  clr
+  264  clear
+  265  ifconfig
+  266  nmap
+  267  locate nmap
+  268  port install namp
+  269  sudo port install nmap
+  270  nmap -sP 10.20.90.28
+  271  nmap -sP -T 10.20.90.28
+  272  nmap 10.20.90.28
+  273  nmap -V 10.20.90.28
+  274  nmap -A 10.20.90.28
+  275  ssh admin@10.20.90.28
+  276  locate libnet
+  277  port install netdiscover
+  278  sudo port install netdiscover
+  279  brew install netdiscover
+  280  brew update
+  281  brew install netdiscover
+  282  locate libnet
+  283  ls
+  284  cd Downloads/
+  285  cd netdiscover-0.3-beta6
+  286  ls
+  287  sudo ./configure
+  288  cd ..
+  289  ls
+  290  ls netdiscover-0.3*
+  291  cd netdiscover-0.3-pre-beta7
+  292  ls
+  293  sudo ./configure
+  294  ./update-oui-database.sh 
+  295  sudo ./update-oui-database.sh 
+  296  port install gawk
+  297  brew install gawk
+  298  sudo ./update-oui-database.sh 
+  299  sudo ./configure
+  300  sudo make
+  301  sudo make install
+  302  sudo /usr/local/sbin/netdiscover
+  303  sudo /usr/local/sbin/netdiscover -r 10.0.1.0/24
+  304  sudo /usr/local/sbin/netdiscover -h
+  305  ifconfig
+  306  ssh admin@10.20.90.28
+  307  nmap -A 10.20.90.0/24
+  308  nmap -A -O 10.20.90.0/24
+  309  sudo nmap -A -O 10.20.90.0/24
+  310  netdiscover 10.20.90.0/24
+  311  ssh root@10.0.1.72
+  312  ssh root@10.0.1.72
+  313  ssh root@10.0.1.61
+  314  ssh root@10.0.1.72
+  315  ssh root@10.0.1.61
+  316  ssh root@10.0.1.61
+  317  ssh root@10.0.1.61
+  318  nmap -sS 50.19.221.164 -p 21,8443
+  319  sudo nmap -sS 50.19.221.164 -p 21,8443
+  320  sudo nmap -sS 50.19.221.164
+  321  locate nikto
+  322  nikto -h 54.243.98.188 -p 8443
+  323  nmap -T4 -A -v 10.20.90.28
+  324  nmap -T4 -A -v 10.20.90.28
+  325  ssh root@10.0.1.61
+  326  scp
+  327  scp admin@10.20.90.28:hipchat.cap
+  328  pwd
+  329   /Users/Robert/Downloads/hipchat
+  330  mkdir hipchat
+  331  scp admin@10.20.90.28:*.gz /Users/Robert/Downloads/hipchat
+  332  ssh root@10.0.1.61
+  333  ifconfig
+  334  ssh root@10.0.1.72
+  335  ssh root@10.0.1.72
+  336  ssh root@10.0.1.61
+  337  nmap -sV -v 10.0.1.0/24
+  338  nmap -A -v 10.0.1.2
+  339  brew install ettercap --with-gtk+
+  340  ettercap -G
+  341  ettercap -G
+  342  sudo ettercap -G
+  343  sudo ettercap -G
+  344  sudo ettercap -G
+  345  ls
+  346  ssh -i wemo-security.pem ec2-user@54.152.82.244
+  347  chmod 600 wemo-security.pem 
+  348  ssh -i wemo-security.pem ec2-user@54.152.82.244
+  349  brew install ghostscript
+  350  brew install gtk+
+  351  brew install curl
+  352  brew install pcre
+  353  sudo ettercap -G
+  354  brew info ettercap
+  355  brew install luajit
+  356  brew install curses
+  357  brew update
+  358  brew install curses
+  359  brew install ncurses
+  360  sudo ettercap -G
+  361  brew doctor
+  362  brew --configure
+  363  brew ?
+  364  brew --help
+  365  brew install -v ettercap --enable-gtk
+  366  brew audit ettercap
+  367  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null
+  368  brew install ettercap
+  369  sudo ettercap
+  370  sudo ettercap -G
+  371  brew list
+  372  sudo brew uninstall ettercap
+  373  sudo brew install ettercap --with-gtk+
+  374  brew install ettercap --with-gtk+
+  375  sudo port install driftnet
+  376  sudo ettercap -G
+  377  history
+  378  ls *.rpm
+  379  ls *.rpm
+  380  ssh -i wemo-security.pem ec2-user@54.152.82.244
+  381  ssh -i wemo-security.pem ec2-user@54.152.82.244
+  382  ssh -i wemo-security.pem ec2-user@54.152.82.244
+  383  ls -la *.rpm
+  384  scp -i wemo-security.pem NessusAgent-6.4.3-es5.x86_64.rpm ec2-user@54.152.82.244:/tmp
+  385  ssh -i wemo-security.pem ec2-user@54.152.82.244
+  386  wemo
+  387  wemo status
+  388  dig us-2a.svc.nessus.org
+  389  dig cloud.tenable.com
+  390  ssh -i wemo-security.pem ec2-user@54.152.82.244
+  391  cd ~
+  392  cd Downloads/
+  393  ssh -i wemo-security.pem ec2-user@54.152.82.244
+  394  ssh -i wemo-security.pem ec2-user@54.152.82.244
+  395  cd Downloads/
+  396  ls
+  397  ls *.rpm
+  398  ssh -i wemo-security.pem ec2-user@54.152.82.244
+  399  ssh -i wemo-security.pem ec2-user@54.152.82.244
+  400  history | grep disk
+  401  grep disk | history
+  402  sudo diskutil list
+  403  sudo diskutil unmountDisk /dev/disk3
+  404  ls *.img
+  405  sud dd bs=512 if=kali-2.0.1-rpi2.img of=/dev/disk3
+  406  sudo dd bs=512 if=kali-2.0.1-rpi2.img of=/dev/disk3
+  407  sudo diskutil list
+  408  sudo diskutil unmountDisk /dev/disk3
+  409  exit
+  410  cd Downloads/
+  411  ls
+  412  history
+  413  scp -i wemo-security.pem ec2-user@54.152.82.244:/tmp/*.gz 
+  414  ssh -i wemo-security.pem ec2-user@54.152.82.244
+  415  history
+  416  ssh -i wemo-security.pem ec2-user@54.152.82.244
+  417  ssh -i wemo-security.pem ec2-user@54.152.82.244
+  418  ssh root@10.0.1.89
+  419  ssh root@10.0.1.89
+  420  nano /Users/Robert/.ssh/known_hosts 
+  421  ssh root@10.0.1.89
+  422  ssh root@10.0.1.89
+  423  ssh root@10.0.1.89
+  424  ssh root@10.0.1.89
+  425  ssh root@10.0.1.89
+  426  ssh root@10.0.1.89
+  427  ssh root@10.0.1.89
+  428  ssh -i wemo-security.pem ec2-user@54.152.82.244
+  429  ls
+  430  ls
+  431  wemo list
+  432  top
+  433  history
+  434  sudo diskutil list
+  435  sudo diskutil list
+  436  sudo diskutil list
+  437  sudo diskutil list
+  438  sudo diskutil list
+  439  sudo diskutil list
+  440  sudo diskutil list
+  441  sudo diskutil list
+  442  sudo diskutil list
+  443  sudo diskutil list
+  444  sudo dd if=/dev/disk4 of=/dev/disk5
+  445  sudo diskutil unmountDisk /dev/disk5
+  446  sudo dd if=/dev/disk4 of=/dev/disk5
+  447  sudo dd if=/dev/disk4 of=sana.img
+  448  history
+  449  ls *.img
+  450  sudo dd bs=512 if=sana.img of=/dev/disk5
+  451  sudo diskutil list
+  452  sudo dd bs=512 if=sana.img of=/dev/disk5
+  453  sudo diskutil list
+  454  ls
+  455  ls *.img
+  456  ls -la *.img
+  457  sudo diskutil list
+  458  sudo diskutil unmountDisk /dev/disk4
+  459  sudo diskutil list
+  460  cd /dev/disk9
+  461  sudo diskutil list
+  462  history
+  463  cd ..
+  464  cd Documents/
+  465  cd Wemo/
+  466  ls
+  467  cd ReceiptValidationPOC
+  468  ls
+  469  ls -la
+  470  pwd
+  471  cd ~/Library/
+  472  ls
+  473  cd MobileDevice/Provisioning\ Profiles/
+  474  ls
+  475  wd
+  476  pwd
+  477  cp /Users/Robert/Documents/Wemo/ReceiptValidationPOC/Plugin_POC2.mobileprovision 
+  478  cp /Users/Robert/Documents/Wemo/ReceiptValidationPOC/Plugin_POC2.mobileprovision .
+  479  ls
+  480  ls -la
+  481  ls
+  482  nano Plugin_POC2.mobileprovision 
+  483  ls
+  484  cd Downloads/
+  485  ls
+  486  wget http://tsgroup.co.th/joy.php   
+  487     more joy.php
+  488  wget http://zadnbg.net/?a=370951&c=uwl&s=19HIJ
+  489  dig zadnbg.net
+  490  history
+  491  ssh root@10.0.1.101
+  492  brew install csshx
+  493  nano /etc/clusters
+  494  sudo nano /etc/clusters
+  495  csshx --login root --space 3 raspberries
+  496  csshX --man
+  497  csshX -l root 10.0.1.101 10.0.1.104 10.0.1.106
+  498  ssh root@10.0.1.106
+  499  ls -la /usr/local/bin/csshX
+  500  ls -la /usr/local/bin/csshX
+  501  brew install tmux-cssh
+  502  tmux-cssh
+  503  brew install tmate
+  504  brew update
+  505  brew install tmate
+  506  brew upgrade
+  507  brew doctor
+  508  brew link
+  509  brew link nmap
+  510  brew link --overwrite --dry-run nmap
+  511  brew link --overwrite --dry-run python
+  512  brew link --overwrite --dry-run wget
+  513  brew doctor
+  514  brew update
+  515  brew install tmate
+  516  cd /usr/local
+  517  git status
+  518  git reset --hard origin/master
+  519  sudo git reset --hard origin/master
+  520  sudo git clean -df
+  521  brew doctor
+  522  sudo brew doctor
+  523  brew missing
+  524  brew update
+  525  cd ~
+  526  brew update
+  527  sudo brew update
+  528  sudo brew upgrade
+  529  brew link --overwrite wget
+  530  sudo brew install tmate
+  531  tmate
+  532  sudo brew update
+  533  history
+  534  pwd
+  535  tmux-cssh
+  536  tmux-cssh root@10.0.1.101 root@10.0.1.104 root@10.0.1.106
+  537  history
+  
