@@ -54,7 +54,6 @@
    54  Ruby -v
    55  sudo gem install sqlite3 bundler therubyracer pg msgpack activerecord redcarpet rspec simplecov yard
    56  sudo pip install pybloomfiltermmap==0.3.11 esmre==0.3.1 phply==0.9.1
-   57  wget https://raw.githubusercontent.com/darkoperator/MSF-Installer/master/msf_install.sh
    58  wget https://raw.githubusercontent.com/darkoperator/MSF-Installer/master/msf_install.sh
    59  xcode-select --install
    60  g++ -v
@@ -78,8 +77,7 @@
    78  msfconsole
    79  history
    80  locate armitage.jar
-   81  updatedb
-   82  locate updatedb
+   # updatedb
    83  /usr/libexec/locate.updatedb
    84  sudo /usr/libexec/locate.updatedb
    85  locate armitage.jar
@@ -103,7 +101,7 @@
   103  nano /opt/msf/config/database.yml
   104  sudo nano /opt/msf/config/database.yml
   105  source /etc/profile
-  106  sourc ~/.bash_profile
+
   107  source ~/.bash_profile
   108  msfconsole
   109  cd /opt/msf
