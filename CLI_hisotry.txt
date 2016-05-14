@@ -1,3 +1,4 @@
+    Command Lines on Mac
     1  brew update
     2  brew install pypcap
     3  sudo scapy
@@ -20,7 +21,7 @@
    20  sudo port upgrade outdated
    21  sudo scapy
    22  python
-   23  history
+
    24  sudo port install PyX
    25  sudo port install pyx
    26  sudo port install py-readline
@@ -496,7 +497,8 @@
   498  ssh root@10.0.1.106
   499  tmux-cssh root@10.0.1.101 root@10.0.1.104 root@10.0.1.106
   500  history
-     38  easy_install bsd
+ 
+38  easy_install bsd
    39  sudo python opener.p
    40  sudo port install libdnet
    41  sudo scapy
@@ -993,7 +995,7 @@
   532  sudo brew update
   533  history
   534  pwd
-  535  tmux-cssh
+
   536  tmux-cssh root@10.0.1.101 root@10.0.1.104 root@10.0.1.106
   537  history
   
